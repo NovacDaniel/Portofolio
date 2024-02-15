@@ -1,0 +1,349 @@
+/* Our App */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d8d8d9;
+}
+.app-wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 40px auto;
+    background-color: #fff;
+    border: 40px solid #f5f5fa;
+    
+}
+
+/* sidebar styles*/
+.sidebar-sections {
+    background-color: #DFEEFF;
+    
+}
+.sidebar-image{
+    padding-top: 40px;
+}
+.contacts-container{
+    padding-left: 40px;
+}
+.contacts-header{
+    color: #161D2A;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.item-style{
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.text-simple{ 
+    color:  #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    margin-left: 10px;    
+}
+.text2-simple{ 
+    color:  #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    margin-left: 75px;    
+}
+
+
+.item-style-birth{
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.phone-box{
+    color: #4489FF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+.maill-box{
+    color: #4489FF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: -10px;
+
+}
+.contacts-element{
+    margin-top: -12px;
+    margin-bottom: 12px;
+}
+.tech-skills-section{
+    padding-left: 40px;
+    margin-top: 40px;
+}
+.header-tech-styles{
+    color: #161D2A;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+.tech-skills-ul{
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: -10px;
+    margin-left: -15px;
+}
+.soft-skills-styles{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.soft-header{
+    color:  #161D2A;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.soft-ul{
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: -10px;
+    margin-left: -15px;
+
+}
+/* maint content styles */
+.right-side-container{
+    padding-left: 88px;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-bottom: 180px;
+}
+
+
+.about-me-professions {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.about-me-name {      
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: -10px;
+}
+.about-me-description {
+    color:  #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: -15px;
+
+}
+
+.projects-section {
+    margin-top: 40px;
+}
+
+.projects-header {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.projects-list {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 4px;
+    margin-top: -10px;
+
+}
+.projects-name {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.project-info {
+    font-weight: 400;
+}
+
+.work-experience-section {
+    margin-top: 40px;
+}
+.worck-experience-header {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.company-name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.company-info {
+    margin-left: 10px;
+    color:#6096FF;
+}
+.company-time {
+    color: #A8A8A8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: -10px;
+
+}
+.company-elements-lists {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #595959;
+    margin-left: -15px;
+    margin-top: -5px;
+
+
+}
+.company-container {
+    margin-top: -10px;
+}
+
+.education-section {
+    margin-top: 40px;
+}
+
+.education-header {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.school-name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6096FF;
+    margin-top: -12px;
+}
+
+.education-profile {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: -12px;
+
+}
+.education-period {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A8A8A8;
+    margin-top: -12px;
+}
+.education-container{
+    margin-top: 20px;
+}
+
+.language-header{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px; 
+    text-align: left; 
+}
+th {
+    background-color: #f2f2f2; 
+}
+
+.driving-header{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.info-driving{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
